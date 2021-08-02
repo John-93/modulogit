@@ -1,0 +1,214 @@
+/*Reset*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:0px solid #000;
+}
+a {
+    text-decoration:none;
+}
+ul li {
+    list-style-type:none;
+}
+
+:root {
+    /*background-color*/
+    --body-bg-color:#000;
+    --header-bg-color:#f00;
+    --main-bg-color:#ff0;
+    --footer-bg-color:#0f0;
+
+    /*text-color*/
+    --body-text-color:#000;
+    --header--text-color:#000;
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-color:var();
+}
+/*HEADER*/
+header {
+    margin-top:10px;
+    width:100%;
+    height:5em;
+    background-color:var();
+    border-bottom:1px solid #ccc;
+}
+.header--container {
+    display:flex;
+    width:100%;
+    height:inherit;
+    justify-content:center;
+    align-items:center;
+}
+.header--content {
+    display:flex;
+    align-items:center;
+    width:80%;
+    height:inherit;
+}
+.header--logo {
+    display:flex;
+    width:100%;
+    height:inherit;
+}
+.header--logo img {
+    width:10%;
+    height:inherit;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.header--logo h1 {
+    width:50%;
+    height:100%;
+    font-size:1.9em;
+    padding:20px 10px;
+    text-transform:uppercase;
+
+}
+.header--redes-sociais, ul li{
+    position:relative;
+    display:flex;
+    padding:10px 0px;
+    background-position:center;
+    width:100%;
+    height:100%;
+    background-color:var();
+}
+.button_ham {
+    border-radius:1em;
+    cursor:pointer;
+    background-color:rgba(204, 204, 204, 0.849);
+    outline:0px;
+}
+.button_ham:hover {
+    background-color:#413c3cfa;
+}
+.button_ham-1 {
+    width:3.5em;
+    height:0.4em;
+    border-radius:1em;
+    background-color:#000000;
+    margin:8px 0px;
+}
+
+/*MAIN*/
+main {
+    width:100%;
+    height:12em;
+    background-color:var();
+}
+.container--banner {
+    display:flex;
+    justify-content:center;
+    height:inherit;
+    width:inherit;
+    background-color:var();
+}
+.content--banner {
+    display:flex;
+    width:80%;
+    height:inherit;
+    background-image:url();
+}
+
+.banner-1 {
+    position:relative;
+    width:100%;
+    height:inherit;
+    text-align:center;
+    font-size:1.5em;
+    color:var();
+}
+.banner-1 p {
+    margin-top:0.5em;
+    color:var();
+}
+
+/*Content*/
+.main--container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:50em;
+
+}
+.main--content{
+    display:flexbox;
+    justify-content:center;
+    align-items:center;
+    align-self:center;
+    width:80%;
+    height:inherit;
+
+}
+
+.content-1, .content-2 {
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.content-2 {
+    flex:1;
+}
+/*Marketing Digital*/
+.marketing {
+    position:relative;
+    width:100%;
+    height:200px;
+}
+
+/*FOOTER*/
+footer {
+    position:relative;
+    margin-top:62.6em;
+    margin-bottom:0.5em;
+    width:100%;
+    height:5em;
+    background-color:var();
+}
+.footer--container {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:inherit;
+    background-color:var();
+}
+.footer--content {
+    display:flex;
+    width:80%;
+    height:inherit;
+}
+.footer--logo {
+    display:flex;
+    width:100%;
+    height:inherit;
+}
+.footer--logo img {
+    width:10%;
+    height:inherit;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.footer--logo h1 {
+    width:50%;
+    height:100%;
+    font-size:1.9em;
+    padding:20px 10px;
+    text-transform:uppercase;
+    color:var();
+
+}
+.footer--redes-sociais, ul li{
+    position:relative;
+    display:flex;
+    padding:10px 0px;
+    background-position:center;
+    width:100%;
+    height:100%;
+    background-color:var();
+}
